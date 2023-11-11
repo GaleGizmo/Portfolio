@@ -1,0 +1,63 @@
+
+#divName {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  letter-spacing: 2px;
+  margin: 25vh auto 0 auto;
+  height: 100vh;
+}
+
+#divName .text {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-weight: 700;
+}
+#divName h2 {
+  font-size: 4vw;
+}
+#divName h2 {
+  animation: appearh2 1s ease-in-out forwards;
+}
+
+#divName h1 {
+  font-size: 6vw;
+  color: orangered;
+}
+#divName h1 {
+  animation: appearh1 2s ease-in-out forwards;
+}
+#divName h3 {
+  font-size: 3vw;
+}
+#divName h3 {
+  animation: appearh3 1s ease-in-out forwards;
+}
+@keyframes appearh2 {
+  0% {
+    opacity: 0;
+    transform: translateX(+100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes appearh1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appearh3 {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

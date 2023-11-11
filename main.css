@@ -1,0 +1,21 @@
+
+@import url('./styles/reset.css');
+@import url('./styles/general.css');
+@import url('./styles/header.css');
+
+@import url('./styles/nav.css');
+@import url('./styles/button.css');
+@import url('./styles/hello.css');
+@import url('./styles/projects.css');
+@import url('./styles/aboutme.css');
+@import url('./styles/contact.css');
+@import url('./styles/media-queries.css');
+
+
+
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+

@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .nav-link {
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+    list-style-type: none;
+  }
+  
+  nav p {
+    width: max-content;
+    font-size: 1vw;
+    margin: 0;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+  }
+  
+  nav p:hover {
+    color: orange;
+    font-weight: 600;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .burguer{
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  .burguer div{
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #f8f4f4;
+    transition: all 0.3s ease;
+  }
+
+
+  

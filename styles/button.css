@@ -1,0 +1,19 @@
+.button {
+  font-size: 14px;
+    padding: 1vw;
+    border: 3px solid rgb(253, 253, 253);
+    background: none;
+    border-radius: 30px;
+    color: rgb(253, 253, 253);
+    font-weight: 600;
+    margin: 0 auto;
+    transition: all 0.2s ease;
+  }
+  
+  .button:hover {
+    /* transform: scale(1.1); */
+    cursor: pointer;
+    background-color: orange;
+    border-color: #333;
+  }
+  

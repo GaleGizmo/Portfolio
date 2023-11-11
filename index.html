@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miguel Abelleira</title>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,600,700&display=swap" rel="stylesheet" />
+
+  <script type="module" src="main.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div id="changeLanguage">
+      <img id="engFlag" src="./assets/img/icons8-circular-de-gran-bretaña-48.png"/>
+      <img id="esFlag" src="./assets/img/icons8-españa2-circular-48.png"/>
+    </div>
+
+    <nav>
+      <ul id="nav-link" class="nav-link">
+        
+        <li>
+          <a href="#divPortfolio">
+            <p id="portfolioLink">PORTFOLIO</p>
+          </a>
+        </li>
+        <li>
+          <a href="#divAbout">
+            <p id="aboutLink"></p>
+          </a>
+        </li>
+        <li>
+          <a href="#divContact">
+            <p id="contactLink"></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.github.com/GaleGizmo/" target="_blank">
+            <p id="githubLink">GITHUB</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/miguelabelleira-fsd/" target="_blank">
+            <p id="linkedinLink">LINKEDIN</p>
+          </a>
+        </li>
+      </ul>
+      <div id="burguer" class="burguer">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="divName">
+      <h2 id="nameH2" class="text"></h2>
+      <h1 class="text">Miguel Abelleira</h1>
+      <h3 id="nameH3" class="text"></h3>
+
+      <button class="button" id="goToPortfolio"></button>
+    </section>
+    <section id="divPortfolio">
+      <h1 id="portfolioTitle"></h1>
+      <div id="projects_container"></div>
+      <div id="project_detail">
+        <div id="project_detail__carrousel">
+          <img id="carrousel_img" />
+          <button class=" carrousel-button left-button" id="prev-btn">❮</button>
+          <button class=" carrousel-button right-button" id="next-btn">❯</button>
+
+        </div>
+        <div id="project_detail__content">
+          <div id="indicator"></div>
+          <h2 id="project_detail__title"></h2>
+          <p id="project_detail__description"></p>
+          <div id="project_detail__techs">
+            <p id="project_detail__fw"></p>
+            <p id="project_detail__libraries"></p>
+          </div>
+          <div class="project_detail__links">
+            <a target="_blank" id="project_detail__website"></a>
+            <a target="_blank" id="project_detail__github"></a>
+                  <img id="close_icon" src="./assets/img/close_icon.png"/>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <section id="divAbout">
+      <h1 id="aboutTitle"></h1>
+      <div id="about_container">
+        <img class="about__image" src="./assets/img/befunky_2023-2-1_23-22-37.jpg" />
+        <p id="aboutText" class="about__text">
+        
+       
+        </p>
+        <a href="./assets/cv.pdf" target="_blank"><button id="viewCV" class="button button__resume"><img
+          class="about__icon" src="./assets/img/viewcv.png" /></button></a>
+      </div>
+    </section>
+    <section id="divContact">
+      <h1 id="contactTitle"></h1>
+      <div id="contact_container">
+        <form id="contact_form" method="POST">
+
+          <input class="form__item" type="text" id="name" name="name"  required><br><br>
+
+
+          <input class="form__item" type="email" id="email" name="email" placeholder="E-Mail" required><br><br>
+
+          <br>
+          <textarea class="form__item" id="message" name="message" rows="4" 
+            required></textarea><br><br>
+
+          <button id="sendMessage" class="button" type="submit" value="Enviar"></button>
+
+        </form>
+        <p id="contact_form__status"></p>
+        <div class="contact_container__links">
+          <a href="mailto:juanmiguelabelleira@gmail.com">
+            <img src="./assets/img/email.png">
+          </a>
+          <a href="https://www.github.com/GaleGizmo/">
+            <img src="assets/img/github3.png">
+          </a>
+          <a href="https://www.linkedin.com/in/miguelabelleira-fsd/">
+            <img src="assets/img/linkedin.png">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>

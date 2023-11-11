@@ -1,0 +1,47 @@
+#divAbout {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #about_container {
+    position: relative;
+    margin: 20px 20%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* height: 70%; */
+  }
+  .about__image {
+    max-width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border: 5px solid orange;
+    border-bottom-right-radius: 9vw;
+    border-top-left-radius: 9vw;
+    filter: grayscale(90%);
+    margin: auto 0;
+  }
+  .about__text {
+    font-size: 1.2vw;
+    line-height: 1.6;
+    margin: auto 0;
+    letter-spacing: 1px;
+  }
+  .button__resume {
+    display: flex;
+    position: absolute;
+    line-height: 1.4;
+    bottom: 0;
+    right: 0;
+  }
+  .about__icon {
+  
+    width: 19px;
+    height: 19px;
+    margin-left: 7px;
+    position: relative;
+  }
