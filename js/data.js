@@ -110,7 +110,7 @@ export const aboutText = [
 
 export const helloText = [
   { engHelloH2: "Welcome! My name is", engHelloH3: "And I'm a Full Stack Developer" },
-  { esHelloH2: "¡Hola! Mi nombre es", esHelloH3: "Y soy Desarrollador FullStack" },
+  { esHelloH2: "¡Hola! Mi nombre es", esHelloH3: "y soy Desarrollador FullStack" },
 ];
 export const navAndHelloText = [
   {
