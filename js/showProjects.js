@@ -26,7 +26,7 @@ export function showProjects(language) {
       projectDiv.appendChild(techs);
       projectDiv.appendChild(button);
       projectDiv.addEventListener("mouseover", function () {
-        backgroundImageDiv.style.opacity = "0";
+        backgroundImageDiv.style.opacity = "0.05";
         const elementsToAnimate = [techs, title, button];
         elementsToAnimate.forEach((el) => {
           el.style.opacity = 1;
