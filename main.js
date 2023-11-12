@@ -1,4 +1,4 @@
-// main.js
+
 import { updateText, changeLanguage } from "./js/updateText.js";
 
 document
@@ -14,3 +14,7 @@ document
   });
 
 updateText();
+
+window.addEventListener('load', function() {
+  document.body.style.display = 'flex';
+});
