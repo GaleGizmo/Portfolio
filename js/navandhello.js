@@ -10,9 +10,22 @@ burguerDiv.addEventListener("click", function () {
   burguerDiv.classList.toggle("burguer-active");
 
 })
+export const portfolioButton=document.getElementById("goToPortfolio")
+portfolioButton.addEventListener("click",function(){
+  goToSection("divPortfolio");
 
-export const portfolioButton = document.getElementById("goToPortfolio");
-portfolioButton.addEventListener("click", function () {
+})
+function goToSection(sectionName) {
+    
+  nav.classList.remove("nav-active");
+  burguerDiv.classList.remove("burguer-active");
+  
+
+  const sectionToGo = document.getElementById(sectionName);
+  sectionToGo.scrollIntoView();
+}
+export const portfolioLink = document.getElementById("portfolioLink");
+portfolioLink.addEventListener("click", function () {
   goToSection("divPortfolio");
 });
 
@@ -25,12 +38,3 @@ export const contactLink = document.getElementById("contactLink");
 contactLink.addEventListener("click", function () {
   goToSection("divContact");
 });
-function goToSection(sectionName) {
-    
-    nav.classList.remove("nav-active");
-    burguerDiv.classList.remove("burguer-active");
-    
-
-    const sectionToGo = document.getElementById(sectionName);
-    sectionToGo.scrollIntoView();
-  }

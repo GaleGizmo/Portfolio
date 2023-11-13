@@ -16,7 +16,7 @@ export let currentLanguage = "eng";
 export function updateText() {
   const lang = currentLanguage === "eng" ? 0 : 1;
   portfolioButton.innerText =
-    navAndHelloText[lang][`${currentLanguage}PortfolioLink`];
+    navAndHelloText[lang][`${currentLanguage}PortfolioButton`];
   aboutLink.innerText = navAndHelloText[lang][`${currentLanguage}AboutLink`];
   contactLink.innerText =
     navAndHelloText[lang][`${currentLanguage}ContactLink`];

@@ -117,16 +117,16 @@ export const navAndHelloText = [
     engAboutLink: "ABOUT",
     engContactLink: "CONTACT",
     
-    engPortfolioLink: "See my work",
-    engMoreInfoLink:"MORE INFO",
+    engPortfolioButton: "See my work",
+   
     
   },
   {
     esAboutLink: "SOBRE MÍ",
     esContactLink: "CONTACTO",
     
-    esPortfolioLink: "Mis proyectos",
-    esMoreInfoLink: "DETALLES",
+    esPortfolioButton: "Mis proyectos",
+ 
     
   },
 ];

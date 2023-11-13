@@ -17,6 +17,7 @@ export function showProjectDetails(project, lang) {
   const closeIcon = document.getElementById("close_icon");
 
   const projectImages = document.getElementById("carrousel_img");
+  projectImages.innerHTML=""
   const carrouselIndicator = document.getElementById("indicator");
 
   //carga el contenido del proyecto
