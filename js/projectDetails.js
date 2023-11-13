@@ -17,7 +17,7 @@ export function showProjectDetails(project, lang) {
   const closeIcon = document.getElementById("close_icon");
 
   const projectImages = document.getElementById("carrousel_img");
-  projectImages.innerHTML=""
+
   const carrouselIndicator = document.getElementById("indicator");
 
   //carga el contenido del proyecto
@@ -91,9 +91,9 @@ export function showProjectDetails(project, lang) {
   //cerrar detalle de proyecto
   closeIcon.addEventListener("click", () => {
     projectDetailsDiv.style.display = "none";
-    const elementsToDelete = document.querySelectorAll('[id*="imageDot"]');
-    elementsToDelete.forEach(function (element) {
-      element.remove();
-    });
+    projectImages.innerHTML=""
+    carrouselIndicator.innerHTML=""
+    
+    
   });
 }
