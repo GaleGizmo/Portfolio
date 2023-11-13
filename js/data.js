@@ -3,12 +3,12 @@ export const projectsData = [
     esName: "Rock the Barrio",
     engName: "Rock the Barrio",
     images: [
-      "assets/img/rtbhome800x527.jpg",
-      "assets/img/rtbdetails800x527.jpg",
-      "assets/img/rtbedituser800x527.jpg",
-      "assets/img/rtbhome_withmap800x527.jpg",
-      "assets/img/rtblogin800x527.jpg",
-      "assets/img/rtb_mobile_varios800x527.jpg",
+      "assets/img/rtbhome600x341.jpg",
+      "assets/img/rtbdetails600x341.jpg",
+      "assets/img/rtbedituser600x341.jpg",
+      "assets/img/rtbhome_withmap600x341.jpg",
+      "assets/img/rtblogin600x341.jpg",
+      "assets/img/rtb_mobile_three600x341.png",
     ],
     techs: { frontend: "React JS", backend: "Node.js", ddbb: "MongoDB" },
     libraries: [
@@ -41,20 +41,20 @@ export const projectsData = [
   {
     esName: "Gestor de empleados",
     engName: "Employee manager",
-    images: ["assets/img/GS_home800x527.jpg"],
+    images: ["assets/img/MC_home600x341.jpg","assets/img/MC_empleado_detalles600x341.jpg","assets/img/MC_empleados600x341.jpg","assets/img/MC_mobile_varios600x341.png"],
     techs: { frontend: "HTML/JS", backend: "Node.js", ddbb: "MongoDB" },
     libraries: [" Express", " Mongoose", " Bcrypt", " Dotenv", " jwt"],
     engDescription:
       "Initial version of a web application for the assessment of workers by their supervisors. A real project for a company based in Madrid.",
     esDescription:
       "Primera versión de una aplicación web para valoración de operarios por parte de sus supervisores. Proyecto real para una empresa de Madrid.",
-    url: "https://rock-the-barrio-front-one.vercel.app/",
-    github: "https://github.com/GaleGizmo/RockTheBarrioFront",
+    url: "https://my-company-app.vercel.app/",
+    github: "https://github.com/GaleGizmo/MyCompany-App.git",
   },
   {
     esName: "Álbumes Legendarios",
     engName: "Legendary Albums",
-    images: ["assets/img/legendary_home800x527.jpg"],
+    images: ["assets/img/legendary_home600x341.jpg","assets/img/legendary_albumlist600x341.jpg","assets/img/legendary_albumdetail600x341.jpg","assets/img/legendary_album_add600x341.jpg","assets/img/legendary_album_edit600x341.jpg","assets/img/legendary_mobile_varios600x341.png"],
     techs: { frontend: "Angular JS", backend: "Node.js", ddbb: "MongoDB" },
     libraries: [
       " Cloudinary",
@@ -72,16 +72,16 @@ export const projectsData = [
       "Website that displays a list of legendary albums from the 20th and 21st centuries, with access to detailed information for each album. It includes complete CRUD (Create, Read, Update, Delete) functionality for the albums",
     esDescription:
       "Web que muestra un listado de álbumes legendarios de los siglos XX y XXI, con acceso a información detallada de cada álbum. Incluye CRUD completo de los álbumes.",
-    url: "https://rock-the-barrio-front-one.vercel.app/",
-    github: "https://github.com/GaleGizmo/RockTheBarrioFront",
+    url: "https://legendary-albums.vercel.app/home",
+    github: "https://github.com/GaleGizmo/Legendary-Albums",
   },
   {
     esName: "The Pixies",
     engName: "The Pixies",
     images: [
-      "assets/img/pixies_home800x527.jpg",
-      "assets/img/pixies_form.jpg",
-      "assets/img/pixies_albumes.jpg",
+      "assets/img/pixies_home600x341.jpg",
+      "assets/img/pixies_form600x341.jpg",
+      "assets/img/pixies_albumes600x341.jpg",
     ],
     techs: { frontend: "Symfony(Twig)", backend: "Symfony", ddbb: "MySQL" },
     libraries: [" Bootstrap", " jquery", " babel", " sass"],
@@ -89,8 +89,8 @@ export const projectsData = [
       "Compilation of The Pixies albums, with full CRUD functionality and user management. A fairly basic-level project, PHP is not the language I feel most comfortable with",
     esDescription:
       "Recopilación de álbumes de The Pixies, con CRUD completo y gestión de usuarios. Proyecto de un nivel bastante básico, PHP no es el lenguaje en que me siento más cómodo.",
-    url: "https://rock-the-barrio-front-one.vercel.app/",
-    github: "https://github.com/GaleGizmo/RockTheBarrioFront",
+    url: "",
+    github: "https://github.com/GaleGizmo/Pixies_Discografy",
   },
 ];
 

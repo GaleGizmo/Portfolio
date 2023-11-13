@@ -7,8 +7,10 @@ export function showProjectDetails(project, lang) {
   const projectDetailDescription = document.getElementById(
     "project_detail__description"
   );
-  const projectDetailFw = document.getElementById("project_detail__fw")
-  const projectDetailTechnologies = document.getElementById("project_detail__libraries")
+  const projectDetailFw = document.getElementById("project_detail__fw");
+  const projectDetailTechnologies = document.getElementById(
+    "project_detail__libraries"
+  );
   const carrousel = document.getElementById("project_detail__carrousel");
   const projectDetailUrl = document.getElementById("project_detail__website");
   const projectDetailGithub = document.getElementById("project_detail__github");
@@ -22,17 +24,25 @@ export function showProjectDetails(project, lang) {
     lang === "es" ? project.esName : project.engName;
   projectDetailDescription.innerHTML =
     lang === "es" ? project.esDescription : project.engDescription;
-  projectDetailFw.textContent = "FRONTEND: "+project.techs.frontend+ " / BACKEND: "+project.techs.backend +" / DDBB: "+project.techs.ddbb
-projectDetailTechnologies.textContent = lang==='es' ? "Librerías: "+project.libraries : "Libraries: "+project.libraries
+  projectDetailFw.textContent =
+    "FRONTEND: " +
+    project.techs.frontend +
+    " / BACKEND: " +
+    project.techs.backend +
+    " / DDBB: " +
+    project.techs.ddbb;
+  projectDetailTechnologies.textContent =
+    lang === "es"
+      ? "Librerías: " + project.libraries
+      : "Libraries: " + project.libraries;
   projectDetailUrl.setAttribute("href", project.url);
   const buttonWebText = lang === "es" ? "Ver Web" : "View Website";
-  projectDetailUrl.innerHTML = `<button class="button button__project">${buttonWebText} <img
-  class="" src="./assets/img/externallink2.png" /></button>`;
+  project.url ? projectDetailUrl.innerHTML = `<button class="button button__project">${buttonWebText} <img
+  class="" src="./assets/img/externallink2.png" /></button>`: projectDetailUrl.innerHTML = "";
   projectDetailGithub.setAttribute("href", project.github);
   const buttonGitText = lang === "es" ? "Ver Código" : "View Code";
-  projectDetailGithub.innerHTML = `<button class="button button__project">${buttonGitText}<img class=""
+   projectDetailGithub.innerHTML = `<button class="button button__project">${buttonGitText}<img class=""
   src="./assets/img/github3.png" /></button>`;
-
 
   //crea los indicadores de imagen mostrada
   for (let i = 0; i < project.images.length; i++) {
@@ -52,30 +62,26 @@ projectDetailTechnologies.textContent = lang==='es' ? "Librerías: "+project.lib
 
   projectDetailsDiv.appendChild(projectDetailsContent);
 
-
   //botones para cambiar imagen
   let index = 0;
- 
+
   function showImageIndicator(indexOfImage) {
     const allDots = document.querySelectorAll('[id*="imageDot"]');
     allDots.forEach(function (element) {
       element.style.backgroundColor = "#333";
     });
     document.getElementById("imageDotNr" + indexOfImage).style.backgroundColor =
-    "orange";
-}
+      "orange";
+  }
   document.getElementById("prev-btn").addEventListener("click", function () {
     index = index - 1 < 0 ? project.images.length - 1 : index - 1;
-   toggleImage(index)
+    toggleImage(index);
   });
 
   document.getElementById("next-btn").addEventListener("click", function () {
     index = index + 1 === project.images.length ? 0 : index + 1;
     toggleImage(index);
   });
-
-  
-   
 
   function toggleImage(indexOfImage) {
     projectImages.setAttribute("src", project.images[indexOfImage]);
