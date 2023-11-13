@@ -1,4 +1,12 @@
+function preloadImages(images) {
+  for (const imageUrl of images) {
+    const img = new Image();
+    img.src = imageUrl;
+  }
+}
+
 export function showProjectDetails(project, lang) {
+  preloadImages(project.images);
   const projectDetailsDiv = document.getElementById("project_detail");
   const projectDetailsContent = document.getElementById(
     "project_detail__content"
@@ -91,7 +99,7 @@ export function showProjectDetails(project, lang) {
   //cerrar detalle de proyecto
   closeIcon.addEventListener("click", () => {
     projectDetailsDiv.style.display = "none";
-    projectImages.innerHTML=""
+    projectImages.src=""
     carrouselIndicator.innerHTML=""
     
     
