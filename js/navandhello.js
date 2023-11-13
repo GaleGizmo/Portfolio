@@ -3,8 +3,9 @@ export const nameH2 = document.getElementById("nameH2");
 export const nameH3 = document.getElementById("nameH3");
 
 export const burguerDiv = document.getElementById("burguer");
+export const nav = document.getElementById("nav-link");
 burguerDiv.addEventListener("click", function () {
-    const nav = document.getElementById("nav-link");
+    
   nav.classList.toggle("nav-active");
   burguerDiv.classList.toggle("burguer-active");
 
@@ -25,7 +26,7 @@ contactLink.addEventListener("click", function () {
   goToSection("divContact");
 });
 function goToSection(sectionName) {
-    const nav = document.getElementById("nav-link");
+    
     nav.classList.remove("nav-active");
     burguerDiv.classList.remove("burguer-active");
     
