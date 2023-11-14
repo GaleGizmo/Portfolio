@@ -75,12 +75,13 @@ export function showProjectDetails(project, lang) {
   let index = 0;
 
   function showImageIndicator(indexOfImage) {
-    const allDots = document.querySelectorAll('[id*="imageDot"]');
+    let allDots = document.querySelectorAll('[id*="imageDot"]');
     allDots.forEach(function (element) {
       element.style.backgroundColor = "#333";
     });
     document.getElementById("imageDotNr" + indexOfImage).style.backgroundColor =
       "orange";
+      allDots=null
   }
   document.getElementById("prev-btn").addEventListener("click", function () {
     index = index - 1 < 0 ? project.images.length - 1 : index - 1;

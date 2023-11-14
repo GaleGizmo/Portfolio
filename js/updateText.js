@@ -11,7 +11,7 @@ import {
   contactLink,
 } from "./navandhello.js";
 
-export let currentLanguage = "eng";
+export let currentLanguage = "es";
 
 export function updateText() {
   const lang = currentLanguage === "eng" ? 0 : 1;
