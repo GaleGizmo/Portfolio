@@ -81,6 +81,7 @@
     overflow-y: auto;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     z-index: 1001;
   }
   #project_detail__carrousel {
