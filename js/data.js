@@ -32,9 +32,9 @@ export const projectsData = [
       " googleapis",
     ],
     engDescription:
-      "Musical events website for the Santiago de Compostela area. Registered users can comment and rate events, as well as create a list of favorite events. Registering also provides the option to receive emails with weekly events, favorites, and the latest added events.",
+      "Musical events website for the Santiago de Compostela area. Registered users can comment and rate events, as well as create a list of favorites. Registering also provides the option to receive emails with weekly, favorites, and latest added events.",
     esDescription:
-      "Web de eventos musicales para el área de Santiago de Compostela. Los usuarios registrados pueden comentar y valorar eventos, así como crear una lista de eventos favoritos. Registrarse da opción además a recibir correos con los eventos semanales, favoritos y últimos eventos añadidos.",
+      "Web de eventos musicales para el área de Santiago de Compostela. Los usuarios registrados pueden comentar, valorar y también crear una lista de sus conciertos favoritos. Registrarse da opción, además, a recibir correos con los conciertos de la semana, favoritos y últimos añadidos.",
     url: "https://rock-the-barrio-front-one.vercel.app/",
     github: "https://github.com/GaleGizmo/RockTheBarrioFront",
   },
