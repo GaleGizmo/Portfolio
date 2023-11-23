@@ -98,11 +98,13 @@ export const aboutText = [
   {
     engAboutTitle: "About Me",
     engViewCV:"View Resume",
+    engCV:"./assets/Miguel_Abelleira_CV(eng).pdf",
     engAboutContent: " Hi! My name is Miguel Abelleira, and I'm a Junior Full Stack Developer based in Santiago de Compostela, Spain. After more than twenty years working in pharmaceutical industry, in 2022 I decided to make a 180º turn in my life and focus my career on one of my two major passions: programming. \nAs a result I've recently completed an intensive Full Stack Developer BootCamp with UpgradeHub, which has probably been one of the best decisions I've ever made. Oh, and in case you're wondering, my other big passion is music!",
   },
   {
     esAboutTitle:"Sobre mí",
     esViewCV:"Ver mi CV",
+    esCV:"./assets/Miguel_Abelleira_CV(es).pdf",
     esAboutContent: "¡Hola! Mi nombre es Miguel Abelleira y soy un Desarrollador Full Stack Junior actualmente ubicado en Santiago de Compostela, España. Después de más de veinte años trabajando en la industria farmacéutica, en 2022 decidí dar un giro de 180 grados en mi vida y centrar mi carrera profesional en una de mis dos grandes pasiones: la programación. \nComo resultado, recientemente he terminado un BootCamp de Desarrollo Full Stack con UpgradeHub, lo cual probablemente ha sido una de las mejores decisiones que he tomado nunca. ¡Ah, y por si te lo preguntabas, mi otra gran pasión es la música!",
     
   },

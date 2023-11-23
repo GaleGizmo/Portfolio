@@ -1,6 +1,6 @@
 // updateText.js
 import { helloText, navAndHelloText, contactText, aboutText } from "./data.js";
-import { aboutTitle, aboutContent, viewCV  } from "./aboutme.js";
+import { aboutTitle, aboutContent, viewCV, downloadCV } from "./aboutme.js";
 import { showProjects } from "./showProjects.js";
 import { showContacts } from "./showContact.js";
 import {
@@ -24,6 +24,7 @@ export function updateText() {
   nameH3.innerText = helloText[lang][`${currentLanguage}HelloH3`];
   aboutTitle.innerText = aboutText[lang][`${currentLanguage}AboutTitle`];
   aboutContent.innerText = aboutText[lang][`${currentLanguage}AboutContent`];
+  downloadCV.setAttribute("href", aboutText[lang][`${currentLanguage}CV`]);
   viewCV.innerHTML = aboutText[lang][`${currentLanguage}ViewCV`];
   viewCV.innerHTML +=
     '<img class="about__icon" src="./assets/img/viewcv.png" />';
