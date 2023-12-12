@@ -32,6 +32,10 @@
   .project_card {
     min-width: 100%;
   }
+  .project_card > div:first-child{
+    width: 92%;
+    height: 62%;
+  }
   .project_card h3 {
     font-size: 16px;
   }
@@ -55,9 +59,14 @@
     letter-spacing: 1px;
   }
   #projects_container {
-    grid-template-columns: 100%;
-    width: 100%;
+    grid-template-columns: 400px;
+    width: auto;
   }
+  .project_card > div:first-child{
+   height: 50%;
+    width: 78%;
+  }
+
   #project_detail__content {
     width: 100%;
   }
@@ -129,4 +138,15 @@
   section h1{
     font-size: 10vw;
   }
+  #projects_container {
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+  .project_card > div:first-child{
+    height: calc( 35vw);
+   width: 71%;
+   }
+   .project_card .button{
+    margin-top: 20px;
+   }
 }
