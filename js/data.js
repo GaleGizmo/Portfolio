@@ -20,6 +20,7 @@ export const projectsData = [
       " Bootstrap",
       " Cloudinary",
       " Nodemail",
+      " Docker",
       " Cron",
       " Date-fns",
       " Calendar",
@@ -35,7 +36,7 @@ export const projectsData = [
       "Musical events website for the Santiago de Compostela area. Registered users can comment and rate events, as well as create a list of favorites. Registering also provides the option to receive emails with weekly, favorites, and latest added events.",
     esDescription:
       "Web de eventos musicales para el área de Santiago de Compostela. Los usuarios registrados pueden comentar, valorar y también crear una lista de sus conciertos favoritos. Registrarse da opción, además, a recibir correos con los conciertos de la semana, favoritos y últimos añadidos.",
-    url: "https://rock-the-barrio-front-one.vercel.app/",
+    url: "https://www.rockthebarrio.es",
     github: "https://github.com/GaleGizmo/RockTheBarrioFront",
   },
   {
