@@ -25,6 +25,8 @@ export const projectsData = [
       " Date-fns",
       " Calendar",
       " Dropzone",
+      "Helmet",
+      "Share",
       " Express",
       " Mongoose",
       " Bcrypt",
