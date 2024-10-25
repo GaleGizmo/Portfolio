@@ -1,5 +1,42 @@
 export const projectsData = [
   {
+    esName: "La Cita del Día",
+    engName: "Daily Quote",
+    images: [
+      "assets/img/lacita_home600x341.jpg",
+      "assets/img/lacita_win600x341.jpg",
+      "assets/img/lacita_oldgames600x341.jpg",
+
+      "assets/img/rtb_mobile_lacita600x341.png",
+    ],
+    techs: { frontend: "React/Vite", backend: "Node.js", ddbb: "MongoDB" },
+    libraries: [
+      " Redux",
+      " Vite",
+      " EsLint",
+      " Axios",
+      " Sonner",
+
+      " Cookie",
+      " Cookie Consent",
+      " Cloudinary",
+      " Nodemail",
+      " Docker",
+      " Cron",
+
+      " Express",
+      " Mongoose",
+
+      " Dotenv",
+    ],
+    engDescription:
+      "Wordle insprired daily game where users must guess hidden quotes from all time movies.",
+    esDescription:
+      "Juego inspirado en Wordle donde los usuarios han de descubrir una cita diaria oculta extraida de una película.",
+    url: "https://www.lacitadeldia.com",
+    github: "https://github.com/GaleGizmo/lacitadeldia-front.git",
+  },
+  {
     esName: "Rock the Barrio",
     engName: "Rock the Barrio",
     images: [
@@ -25,8 +62,8 @@ export const projectsData = [
       " Date-fns",
       " Calendar",
       " Dropzone",
-      "Helmet",
-      "Share",
+      " Helmet",
+      " Share",
       " Express",
       " Mongoose",
       " Bcrypt",
@@ -44,7 +81,12 @@ export const projectsData = [
   {
     esName: "Gestor de empleados",
     engName: "Employee manager",
-    images: ["assets/img/MC_home600x341.jpg","assets/img/MC_empleado_detalles600x341.jpg","assets/img/MC_empleados600x341.jpg","assets/img/MC_mobile_varios600x341.png"],
+    images: [
+      "assets/img/MC_home600x341.jpg",
+      "assets/img/MC_empleado_detalles600x341.jpg",
+      "assets/img/MC_empleados600x341.jpg",
+      "assets/img/MC_mobile_varios600x341.png",
+    ],
     techs: { frontend: "HTML/JS", backend: "Node.js", ddbb: "MongoDB" },
     libraries: [" Express", " Mongoose", " Bcrypt", " Dotenv", " jwt"],
     engDescription:
@@ -57,7 +99,14 @@ export const projectsData = [
   {
     esName: "Álbumes Legendarios",
     engName: "Legendary Albums",
-    images: ["assets/img/legendary_home600x341.jpg","assets/img/legendary_albumlist600x341.jpg","assets/img/legendary_albumdetail600x341.jpg","assets/img/legendary_album_add600x341.jpg","assets/img/legendary_album_edit600x341.jpg","assets/img/legendary_mobile_varios600x341.png"],
+    images: [
+      "assets/img/legendary_home600x341.jpg",
+      "assets/img/legendary_albumlist600x341.jpg",
+      "assets/img/legendary_albumdetail600x341.jpg",
+      "assets/img/legendary_album_add600x341.jpg",
+      "assets/img/legendary_album_edit600x341.jpg",
+      "assets/img/legendary_mobile_varios600x341.png",
+    ],
     techs: { frontend: "Angular JS", backend: "Node.js", ddbb: "MongoDB" },
     libraries: [
       " Cloudinary",
@@ -100,56 +149,59 @@ export const projectsData = [
 export const aboutText = [
   {
     engAboutTitle: "About Me",
-    engViewCV:"View Resume",
-    engCV:"./assets/Miguel_Abelleira_CV(eng).pdf",
-    engAboutContent: " Hi! My name is Miguel Abelleira, and I'm a Junior Full Stack Developer based in Santiago de Compostela, Spain. After more than twenty years working in pharmaceutical industry, in 2022 I decided to make a 180º turn in my life and focus my career on one of my two major passions: programming. \nAs a result I've recently completed an intensive Full Stack Developer BootCamp with UpgradeHub, which has probably been one of the best decisions I've ever made. Oh, and in case you're wondering, my other big passion is music!",
+    engViewCV: "View Resume",
+    engCV: "./assets/Miguel_Abelleira_CV(eng).pdf",
+    engAboutContent:
+      " Hi! My name is Miguel Abelleira, and I'm a Junior Full Stack Developer based in Santiago de Compostela, Spain. After more than twenty years working in pharmaceutical industry, in 2022 I decided to make a 180º turn in my life and focus my career on one of my two major passions: programming. \nAs a result I've recently completed an intensive Full Stack Developer BootCamp with UpgradeHub, which has probably been one of the best decisions I've ever made. Oh, and in case you're wondering, my other big passion is music!",
   },
   {
-    esAboutTitle:"Sobre mí",
-    esViewCV:"Ver mi CV",
-    esCV:"./assets/Miguel_Abelleira_CV(es).pdf",
-    esAboutContent: "¡Hola! Mi nombre es Miguel Abelleira y soy un Desarrollador Full Stack Junior actualmente ubicado en Santiago de Compostela, España. Después de más de veinte años trabajando en la industria farmacéutica, en 2022 decidí dar un giro de 180 grados en mi vida y centrar mi carrera profesional en una de mis dos grandes pasiones: la programación. \nComo resultado, recientemente he terminado un BootCamp de Desarrollo Full Stack con UpgradeHub, lo cual probablemente ha sido una de las mejores decisiones que he tomado nunca. ¡Ah, y por si te lo preguntabas, mi otra gran pasión es la música!",
-    
+    esAboutTitle: "Sobre mí",
+    esViewCV: "Ver mi CV",
+    esCV: "./assets/Miguel_Abelleira_CV(es).pdf",
+    esAboutContent:
+      "¡Hola! Mi nombre es Miguel Abelleira y soy un Desarrollador Full Stack Junior actualmente ubicado en Santiago de Compostela, España. Después de más de veinte años trabajando en la industria farmacéutica, en 2022 decidí dar un giro de 180 grados en mi vida y centrar mi carrera profesional en una de mis dos grandes pasiones: la programación. \nComo resultado, recientemente he terminado un BootCamp de Desarrollo Full Stack con UpgradeHub, lo cual probablemente ha sido una de las mejores decisiones que he tomado nunca. ¡Ah, y por si te lo preguntabas, mi otra gran pasión es la música!",
   },
 ];
 
 export const helloText = [
-  { engHelloH2: "Welcome! My name is", engHelloH3: "And I'm a Full Stack Developer" },
-  { esHelloH2: "¡Hola! Mi nombre es", esHelloH3: "y soy Desarrollador FullStack" },
+  {
+    engHelloH2: "Welcome! My name is",
+    engHelloH3: "And I'm a Full Stack Developer",
+  },
+  {
+    esHelloH2: "¡Hola! Mi nombre es",
+    esHelloH3: "y soy Desarrollador FullStack",
+  },
 ];
 export const navAndHelloText = [
   {
     engAboutLink: "ABOUT",
     engContactLink: "CONTACT",
-    
+
     engPortfolioButton: "See my work",
-   
-    
   },
   {
     esAboutLink: "SOBRE MÍ",
     esContactLink: "CONTACTO",
-    
+
     esPortfolioButton: "Mis proyectos",
- 
-    
   },
 ];
-export const contactText=[
+export const contactText = [
   {
-    engSectionTitle:"Contact",
-    engSendMessage:"Send Message",
-    engNamePlaceholder:"Name",
-    engMessagePlaceholder:"Message",
-    engSuccessMessage:"Thanks for your message!",
-    engErrorMessage:"Oops! There was a problem submitting your form"
+    engSectionTitle: "Contact",
+    engSendMessage: "Send Message",
+    engNamePlaceholder: "Name",
+    engMessagePlaceholder: "Message",
+    engSuccessMessage: "Thanks for your message!",
+    engErrorMessage: "Oops! There was a problem submitting your form",
   },
   {
-    esSectionTitle:"Contacto",
-    esNamePlaceholder:"Nombre",
-    esMessagePlaceholder:"Mensaje",
-    esSendMessage:"Enviar Mensaje",
-    esSuccessMessage:"¡Gracias por tu mensaje!",
-    esErrorMessage:"¡Ups! Hubo un error en el envío del mensaje "
-  }
-]
+    esSectionTitle: "Contacto",
+    esNamePlaceholder: "Nombre",
+    esMessagePlaceholder: "Mensaje",
+    esSendMessage: "Enviar Mensaje",
+    esSuccessMessage: "¡Gracias por tu mensaje!",
+    esErrorMessage: "¡Ups! Hubo un error en el envío del mensaje ",
+  },
+];
