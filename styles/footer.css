@@ -1,4 +1,6 @@
-
+footer{
+  height: 20px;
+}
 footer p {
     font-size: 12px;
     opacity: 0.8;
